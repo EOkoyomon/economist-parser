@@ -9,12 +9,14 @@ Sorry, this script was a 30-60 minute procrastination so not fully fledged. Urll
 3. Save the page source (Ctrl-S or Cmd-S for example) and save the file, for example, under downloads.
 4. Run the script as follows, providing the absolute path to your file (or relative from where the script lives if you know this):
     python3 Economist.py <absolute_path> <output_name>
-5. The output(s) will be located at output_name#.txt where # is an integer. Should only be 1 but loop just in case.
+5. The output(s) will be located at output_name#.txt where # is an integer. Should only be 1 but I loop just in case.
 
 Example:
   With the URL provided above downloaded and saved in econ.html and my script living in Desktop (same directory as Downloads):
   python3 Economist.py ../Downloads/econ.html economist
   
-  Outputs economist.html in Desktop that can now be opened in a browser:
+  Outputs economist1.html in Desktop that can now be opened in a browser:
   
-  ![Alt text](/screenshot.jpg?raw=true "Optional Title")
+  ![Alt text](/screenshot.png?raw=true "Optional Title")
+
+** Note screenshot does not say economist1 - I created the path displayed in the browser
